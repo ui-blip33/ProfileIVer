@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    color: #333;
+    text-align: center;
+   }
+   h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    margin: 0;
+   }
+   h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+   }
+   p {
+    font-family: 'Merriweather', serif;
+   }
+   .top-section {
+    background-image: url('ivers1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 150px 20px 0;
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+   }
+   .top-content {
+    position: relative;
+    z-index: 2;
+    padding-top: 100px;
+    padding-bottom: 140px;
+   }
+   .middle-section {
+    background-color: white;
+    padding: 60px 20px;
+    background-image: url('Ivers2.jpg');
+    background-size: cover;
+   }
+   .middle-section img {
+    width: 300px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    background-size: cover;
+   }
+   .bottom-section {
+    background-color: #854714;
+    color: white;
+    padding: 60px 20px;
+   }
+   .btn {
+    background: #f53958;
+    background-image: linear-gradient(to bottom, #f53958, #ffffff);
+    border-radius: 28px;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s ease;
+   }
+   .btn:hover {
+    background: #3cb0fd;
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+   }
+   .social-links a {
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+   }
+   .social-links a.facebook {
+    color: rgb(53, 206, 206);
+   }
+   .social-links a.instagram {
+    color: rgb(53, 206, 206);
+   }
+   .social-links a.website {
+    color: rgb(53, 206, 206);
+   }
+   .social-links a:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+   }
